@@ -14,7 +14,7 @@ cd repo
 chmod +x *.sh
 
 cd /usr/local/bin
-echo "bash /root/scripts/repo/ant.sh \$1 \$2" > ant
+echo "bash /root/scripts/repo/ant.sh "$"1 "$"2" > ant
 chmod +x ant
 
 echo "------------------------"
