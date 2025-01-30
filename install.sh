@@ -5,7 +5,6 @@ sudo apt-get upgrade -y
 sudo apt-get install git jq curl mc -y
 
 cd ~
-
 [ -d ~/scripts ] || mkdir scripts
 [ -d ~/logs ] || mkdir logs
 
@@ -14,7 +13,6 @@ git clone https://github.com/Motko222/ant repo
 cd repo
 chmod +x *.sh
 
-# create executable
 cd /usr/local/bin
 echo "bash /root/scripts/repo/ant.sh $1 $2" > ant
 chmod +x ant
