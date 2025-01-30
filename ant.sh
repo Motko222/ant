@@ -36,7 +36,7 @@ if [ -z $2 ]
 fi
 
 case $action in
-r|R)
+r.sh|R.sh)
   cat ~/scripts/$repo/README.md
 ;;
 *)
