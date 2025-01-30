@@ -15,6 +15,9 @@ cd repo
 chmod +x *.sh
 
 # create executable
+cd /usr/local/bin
+echo "bash /root/scripts/repo/ant.sh" > ant
+chmod +x ant
 
 echo "------------------------"
 echo "Installation done. Run 'ant' to open client."
