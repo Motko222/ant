@@ -16,7 +16,7 @@ chmod +x *.sh
 
 # create executable
 cd /usr/local/bin
-echo "bash /root/scripts/repo/ant.sh" > ant
+echo "bash /root/scripts/repo/ant.sh $1 $2" > ant
 chmod +x ant
 
 echo "------------------------"
