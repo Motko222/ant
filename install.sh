@@ -5,8 +5,9 @@ sudo apt-get upgrade -y
 sudo apt-get install git jq curl mc -y
 
 cd ~
-[ -d ~/scripts ] || mkdir scripts
-[ -d ~/logs ] || mkdir logs
+[ -d scripts ] || mkdir scripts
+[ -d logs ] || mkdir logs
+[ -d ~/scripts/ex ] && rm -r ~/scripts/ex
 
 cd scripts
 git clone https://github.com/Motko222/ant repo
