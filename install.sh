@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install git jq curl mc -y
 
-cd ~
+cd /root/
 [ -d scripts ] || mkdir scripts
 [ -d logs ] || mkdir logs
 [ -d ~/scripts/ex ] && rm -r ~/scripts/ex
